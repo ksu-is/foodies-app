@@ -1,2 +1,1 @@
-Food_ingredient= input("what are your ingredients?")
-print(Food_ingredient)
+The point of this app is to use a condensed database search based on the ingredients around the house and produce the best match of recipe that can be made with those ingredients
