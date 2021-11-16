@@ -29,6 +29,8 @@ def findRecipe():
     getRecipe(key)
     islukin4 = input("is this what you are looking for?(y for Yes, n for No): ") #comfirming the receipe
     if islukin4 == "n":    # checks user responds
+        findRecipe()        # calls the findRecipe function again---recursion
+
     
     input("\nPress ENTER To Exit To Main Menu\n")
     system('CLS')
