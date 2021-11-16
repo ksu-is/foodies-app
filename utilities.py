@@ -366,7 +366,7 @@ def getRecipe(name):
     found = False
     loc = -1
     for i in range(len(json_data)):
-        if(json_data[i]['title']==name):
+        if(name in json_data[i]['title']):
             loc = i;
             found = True
             break;
