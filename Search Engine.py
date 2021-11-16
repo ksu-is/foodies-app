@@ -30,11 +30,10 @@ def findRecipe():
     islukin4 = input("is this what you are looking for?(y for Yes, n for No): ") #comfirming the receipe
     if islukin4 == "n":    # checks user responds
         findRecipe()        # calls the findRecipe function again---recursion
-
-    
-    input("\nPress ENTER To Exit To Main Menu\n")
-    system('CLS')
-    main()
+    elif islukin4 == "y":   #calls back the main() function if the answer is yes
+        input("\nPress ENTER To Exit To Main Menu\n")
+        system('CLS')
+        main()
     
 def main():
     print("Welcome To JSON Recipe Search Engine")
