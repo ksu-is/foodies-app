@@ -31,9 +31,13 @@ def findRecipe():
     if islukin4 == "n":    #checks user responds
        findRecipe()   #calls the findRecipe function again---recursion
     elif islukin4 == "y":   #calls back the main() function if the answer is yes
-    input("\nPress ENTER To Exit To Main Menu\n")
-    system('CLS')
-    main()
+        input("\nPress ENTER To Exit To Main Menu\n")
+        system('CLS')
+        main()
+    else:                  #default else statement
+        print("please enter a valid response")
+        findRecipe()
+
 
 def main():
     print("Welcome To JSON Recipe Search Engine")
