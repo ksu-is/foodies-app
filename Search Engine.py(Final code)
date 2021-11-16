@@ -25,7 +25,7 @@ def findNames():
 
 def findRecipe():
     print("\n--- Find Recipe By Name ---\n")
-    key = input("Enter The Exact Name Of Your Dish: ")
+    key = input("Enter any three word contained in the recipe: ") #instruction for the user
     getRecipe(key)
     input("\nPress ENTER To Exit To Main Menu\n")
     system('CLS')
