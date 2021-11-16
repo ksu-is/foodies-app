@@ -28,13 +28,16 @@ def findRecipe():
     key = input("Enter any three word contained in the recipe: ") #instruction for the user
     getRecipe(key)
     islukin4 = input("is this what you are looking for?(y for Yes, n for No): ") #comfirming the receipe
-    if islukin4 == "n":    # checks user responds
-        findRecipe()        # calls the findRecipe function again---recursion
+    if islukin4 == "n":    #checks user responds
+        findRecipe()        #calls the findRecipe function again---recursion
     elif islukin4 == "y":   #calls back the main() function if the answer is yes
         input("\nPress ENTER To Exit To Main Menu\n")
         system('CLS')
         main()
-    
+    else:                  #default else statement
+        print("please enter a valid response")
+        findRecipe()
+
 def main():
     print("Welcome To JSON Recipe Search Engine")
     print("""
