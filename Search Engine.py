@@ -27,6 +27,7 @@ def findRecipe():
     print("\n--- Find Recipe By Name ---\n")
     key = input("Enter any three word contained in the recipe: ") #instruction for the user
     getRecipe(key)
+    islukin4 = input("is this what you are looking for?(y for Yes, n for No): ") #comfirming the receipe
     input("\nPress ENTER To Exit To Main Menu\n")
     system('CLS')
     main()
