@@ -1,5 +1,5 @@
-#Author:- Hoshner Tavadia
-#Email:- hoshnertavadia@gmail.com/htavadia@my.yorku.ca
+#Author:- Hoshner Tavadia and Alexis Mathieu
+#Email:- hoshnertavadia@gmail.com/htavadia@my.yorku.ca/alexis.mathieu16@gmail.com
 
 from os import system
 from utilities import search, getRecipe
